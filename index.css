@@ -1,0 +1,84 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap');
+
+:root{
+    --primarie-color :#00A9FF;
+    --secondary-color: #89CFF3;
+    --tertiary-color : #A0E9FF;
+   
+}
+*{
+    margin: 2rem;
+   
+    border: 2rem;
+}
+/* realisation du tableau */
+h1{
+    font-family: inter ;
+    font-size: 4rem ;
+text-align: center;
+
+}
+
+
+
+table,tr,td{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:#fff;
+    font-size: 3rem;
+    border-color: #ffffff;
+    
+    
+}
+/* Mettre les bordure dans un tableau */
+.heure1{
+    border-bottom-left-radius: 1rem;
+    background-color: #89CFF3;
+    color: #00A9FF;
+}
+
+.Jours3{
+    border-bottom-right-radius:1rem;
+    color: #fff;
+   
+}
+.Jours2{
+    border-top-right-radius: 1rem;
+    color: #fff;
+    background-color: #00A9FF;
+
+}
+.Jours1{
+    border-top-left-radius: 1rem;
+    color: #fff;
+    background-color: #00A9FF;
+}
+
+.Jours{
+    color: #fff;
+    background-color: #00A9FF;
+
+}
+.heure{
+   background-color:  #89CFF3;
+    color: #00A9FF;
+    
+}
+td{
+    background-color: #A0E9FF ;
+    width: 1%;
+    height: 3rem;
+    
+    
+}
+tr{
+    width: 1%;
+    height: 3rem;
+}
+
+
